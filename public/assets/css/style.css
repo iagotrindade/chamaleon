@@ -84,6 +84,7 @@
    position: relative;
    left: -30px;
    top: 2px;
+   cursor: pointer;
 }
 
 .section-header-form-area form input {
@@ -95,10 +96,13 @@
     padding-left: 10px;
 }
 
-.section-user-icon-area {
+.section-user-icon-area a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--secondary-font-color);
 }
 
 .section-user-icon-area p {
@@ -194,11 +198,92 @@
     padding-top: 100px;
 }
 
-.section-area-all-products-link a {
+.section-area-all-products-link {
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section-area-all-products-link a {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
     font-size: 16px;
     margin-top: 7px;
+    text-align: right;
+}
+
+.section-area-all-products-link a:hover {
+    border-bottom: 1px solid #FF5900;
+}
+
+.section-products-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 310px;
+    height: 500px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+}
+
+.product-box img {
+    width: 290px;
+}
+
+.product-box-desc {
+    width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.product-box-price-obs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.product-box-price {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--primary-color);
+}
+
+.product-box-obs {
+    width: 100%;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.product-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 290px;
+    height: 40px;
+    font-weight: 800;
+    font-size: 25px;
+    background: #FF5900;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+
+.product-box a:hover {
+    color: var(--secondary-font-color);
+    background-color: var(--primary-font-color);
 }
