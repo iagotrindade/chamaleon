@@ -22,7 +22,9 @@
         <section class="container-lg">
             <div class="header-menu">
                 <div class="section-logo-area">
-                    <img src="<?=$base;?>/assets/images/logos/logo.png">
+                    <a href="<?=$base;?>/">
+                        <img src="<?=$base;?>/assets/images/logos/logo.png">
+                    </a>
                 </div>
 
                 <div class="section-menu-area">
@@ -74,7 +76,7 @@
             </div>
         </section>
 
-        <section class="container-xl section-banner-slide-area">
+        <section class="container-xg section-banner-slide-area">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -171,6 +173,70 @@
                         </div>
                         <a href="<?=$base;?>/product/id">COMPRAR</a>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-out-categories-area container-lg">
+                <h2>Nossas Categorias</h2>
+
+                <div class="section-area-all-categories-link">
+                    <a href="<?=$base;?>/products">VER TODAS ></a>
+                </div>
+
+                <div class="categories-banners-area">
+                    <div class="section-category-area-img1"></div>
+
+                    <div class="section-category-area-img2"></div>
+
+                    <div class="section-category-area-img3"></div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-marketing-area container-lg">
+                <div class="section-marketing-area-img">
+                    <img src="<?=$base;?>/assets/images/banners/marketing_banner.jpeg">
+                </div>
+
+                <div class="section-marketing-area-texts">
+                    <h2>
+                        Porque Comprar Com a Chamale<font color="#FF5900">ON</font>
+                    </h2>
+
+                    <div class="section-marketing-area-underline-tittle"></div>
+                    
+
+                    <p class="section-marketin-area-text">
+                        A ChamaleON tem uma grande variedade de produtos e preços que cabem no bolso. Buscamos trazer 
+                        os melhores produto para você, e tornar facil o processo de compra pela internet, focamos em um 
+                        atendimento PREMIUN onde você tera suporte todos os dias da semana a qualquer 
+                        horario, para tirar duvidas ou resolver alguma pendência.
+                    </p>
+
+                    <ul>
+                        <li>
+                            <i>+</i>
+                            <p>COMPRA 100% SEGURA</p>
+                        </li>
+
+                        <li>
+                            <i>+</i>
+                            <p>GARANTIA DE 4 MESES PARA TODOS OS PRODUTOS</p>
+                        </li>
+
+                        <li>
+                            <i>+</i>
+                            <p>FRETE GRATÍS PARA TODO BRASIL</p>
+                        </li>
+
+                        <li>
+                            <i>+</i>
+                            <p>SUPORTE 24/7</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>

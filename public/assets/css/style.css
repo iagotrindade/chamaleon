@@ -7,10 +7,16 @@
     font-family: 'Montserrat';
 }
 
+body {
+    display: flex;
+    justify-content: center;
+}
+
 :root {
     --primary-color: #FF5900;
     --primary-font-color: #FFFFFF;
     --secondary-font-color: #000000;
+    --tertiary-font-color: #484848;
 }
 
 .container-xg {
@@ -195,17 +201,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
+    margin: 100px 0 90px 0;
+
 }
 
-.section-area-all-products-link {
+.section-area-all-products-link, .section-area-all-categories-link {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 10px;
 }
 
-.section-area-all-products-link a {
+.section-area-all-products-link a, .section-area-all-categories-link a {
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
@@ -214,7 +222,7 @@
     text-align: right;
 }
 
-.section-area-all-products-link a:hover {
+.section-area-all-products-link a:hover, .section-area-all-categories-link a:hover {
     border-bottom: 1px solid #FF5900;
 }
 
@@ -276,7 +284,7 @@
     height: 40px;
     font-weight: 800;
     font-size: 25px;
-    background: #FF5900;
+    background: var(--primary-color);
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     border-radius: 3px;
     text-decoration: none;
@@ -287,3 +295,91 @@
     color: var(--secondary-font-color);
     background-color: var(--primary-font-color);
 }
+
+.categories-banners-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-category-area-img1 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-category-area-img2 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-category-area-img3 {
+    height: 268px;
+    width: 450px;
+    background-image: url("http://localhost/chamaleon/public/assets/images//banners/banner_category3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-marketing-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-marketing-area-img {
+    margin-right: 80px;
+}
+
+.section-marketing-area-texts h2 {
+    font-weight: 500;
+    font-size: 30px;
+    color: var(--secondary-font-color);
+}
+
+.section-marketing-area-underline-tittle {
+    height: 2px;
+    width: 105px;
+    background-color: #D8D8D8;
+    margin: 15px 0;
+}
+
+.section-marketin-area-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--tertiary-font-color);
+    margin-bottom: 30px;
+}
+
+.section-marketing-area-texts ul {
+    width: 450px;
+    list-style: none;
+}
+
+.section-marketing-area-texts ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.section-marketing-area-texts ul li i {
+    padding: 4px 7px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: var(--primary-font-color);
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.section-marketing-area-texts ul li p {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--tertiary-font-color);
+}
+
