@@ -116,7 +116,9 @@
 
             <div class="section-products-boxes">
                 <div class="product-box">
-                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
 
                     <p class="product-box-desc">
                         Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
@@ -131,7 +133,9 @@
                 </div>
 
                 <div class="product-box">
-                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/ssd_image.jpg">
+                    </div>
 
                     <p class="product-box-desc">
                         Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
@@ -146,7 +150,9 @@
                 </div>
 
                 <div class="product-box">
-                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
 
                     <p class="product-box-desc">
                         Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
@@ -161,7 +167,9 @@
                 </div>
 
                 <div class="product-box">
-                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
 
                     <p class="product-box-desc">
                         Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
@@ -305,6 +313,94 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-most-popular-area container-lg">
+            <h2>MAIS POPULAR</h2>
+
+            <div class="section-most-popular-area-all-link">
+                <a href="<?=$base;?>/products">VER TODOS ></a>
+            </div>
+
+            <div class="section-products-boxes">
+                <div class="product-box">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/ssd_image.jpg">
+                    </div>
+
+                    <p class="product-box-desc">
+                        SSD 240 GB Kingston A400, SATA, Leitura: 500MB/s e Gravação: 350MB/s - SA400S37/240G.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <div class="section-products-boxes-img">
+                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+                    </div>
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-offer-area">
+            <h2>
+                OFERTAS EM DESTAQUE
+            </h2>
         </div>
     </section>
 
