@@ -75,174 +75,238 @@
                 </div>
             </div>
         </section>
-
-        <section class="container-xg section-banner-slide-area">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="section-slide-banner1-area">
-                            <div class="section-banner-texts">
-                                <h2>MONTE SEU SETUP</h2>
-                                <div class="border-banner1"></div>
-                                <p>As melhores peças e periféricos você encontra aqui na ChamaleON</p>
-                                <a class="button-banner1">COMEÇAR</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <div class="section-slide-banner1-area">
-                            <div class="section-banner-texts">
-                                <h2>MONTE SEU SETUP</h2>
-                                <div class="border-banner1"></div>
-                                <p>As melhores peças e periféricos você encontra aqui na ChamaleON</p>
-                                <a class="button-banner1">COMEÇAR</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-scrollbar"></div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container-lg section-our-products-area">
-                <h2>NOSSOS PRODUTOS</h2>
-
-                <div class="section-area-all-products-link">
-                    <a href="<?=$base;?>/products">VER TODOS ></a>
-                </div>
-
-                <div class="section-products-boxes">
-                    <div class="product-box">
-                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
-
-                        <p class="product-box-desc">
-                            Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
-                        </p>
-
-                        <div class="product-box-price-obs">
-                            <p class="product-box-price">R$ 269,99</p>
-
-                            <P class="product-box-obs">A vista no PIX</P>
-                        </div>
-                        <a href="<?=$base;?>/product/id">COMPRAR</a>
-                    </div>
-
-                    <div class="product-box">
-                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
-
-                        <p class="product-box-desc">
-                            Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
-                        </p>
-
-                        <div class="product-box-price-obs">
-                            <p class="product-box-price">R$ 269,99</p>
-
-                            <P class="product-box-obs">A vista no PIX</P>
-                        </div>
-                        <a href="<?=$base;?>/product/id">COMPRAR</a>
-                    </div>
-
-                    <div class="product-box">
-                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
-
-                        <p class="product-box-desc">
-                            Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
-                        </p>
-
-                        <div class="product-box-price-obs">
-                            <p class="product-box-price">R$ 269,99</p>
-
-                            <P class="product-box-obs">A vista no PIX</P>
-                        </div>
-                        <a href="<?=$base;?>/product/id">COMPRAR</a>
-                    </div>
-
-                    <div class="product-box">
-                        <img src="<?=$base;?>/assets/images/products/memoria_image.png">
-
-                        <p class="product-box-desc">
-                            Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
-                        </p>
-
-                        <div class="product-box-price-obs">
-                            <p class="product-box-price">R$ 269,99</p>
-
-                            <P class="product-box-obs">A vista no PIX</P>
-                        </div>
-                        <a href="<?=$base;?>/product/id">COMPRAR</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-out-categories-area container-lg">
-                <h2>Nossas Categorias</h2>
-
-                <div class="section-area-all-categories-link">
-                    <a href="<?=$base;?>/products">VER TODAS ></a>
-                </div>
-
-                <div class="categories-banners-area">
-                    <div class="section-category-area-img1"></div>
-
-                    <div class="section-category-area-img2"></div>
-
-                    <div class="section-category-area-img3"></div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="section-marketing-area container-lg">
-                <div class="section-marketing-area-img">
-                    <img src="<?=$base;?>/assets/images/banners/marketing_banner.jpeg">
-                </div>
-
-                <div class="section-marketing-area-texts">
-                    <h2>
-                        Porque Comprar Com a Chamale<font color="#FF5900">ON</font>
-                    </h2>
-
-                    <div class="section-marketing-area-underline-tittle"></div>
-                    
-
-                    <p class="section-marketin-area-text">
-                        A ChamaleON tem uma grande variedade de produtos e preços que cabem no bolso. Buscamos trazer 
-                        os melhores produto para você, e tornar facil o processo de compra pela internet, focamos em um 
-                        atendimento PREMIUN onde você tera suporte todos os dias da semana a qualquer 
-                        horario, para tirar duvidas ou resolver alguma pendência.
-                    </p>
-
-                    <ul>
-                        <li>
-                            <i>+</i>
-                            <p>COMPRA 100% SEGURA</p>
-                        </li>
-
-                        <li>
-                            <i>+</i>
-                            <p>GARANTIA DE 4 MESES PARA TODOS OS PRODUTOS</p>
-                        </li>
-
-                        <li>
-                            <i>+</i>
-                            <p>FRETE GRATÍS PARA TODO BRASIL</p>
-                        </li>
-
-                        <li>
-                            <i>+</i>
-                            <p>SUPORTE 24/7</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section>
     </header>
     
+    <section class="container-xg section-banner-slide-area">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="section-slide-banner1-area">
+                        <div class="section-banner-texts">
+                            <h2>MONTE SEU SETUP</h2>
+                            <div class="border-banner1"></div>
+                            <p>As melhores peças e periféricos você encontra aqui na ChamaleON</p>
+                            <a class="button-banner1">COMEÇAR</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="section-slide-banner1-area">
+                        <div class="section-banner-texts">
+                            <h2>MONTE SEU SETUP</h2>
+                            <div class="border-banner1"></div>
+                            <p>As melhores peças e periféricos você encontra aqui na ChamaleON</p>
+                            <a class="button-banner1">COMEÇAR</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
         </div>
+    </section>
+
+    <section>
+        <div class="container-lg section-our-products-area">
+            <h2>NOSSOS PRODUTOS</h2>
+
+            <div class="section-area-all-products-link">
+                <a href="<?=$base;?>/products">VER TODOS ></a>
+            </div>
+
+            <div class="section-products-boxes">
+                <div class="product-box">
+                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+
+                <div class="product-box">
+                    <img src="<?=$base;?>/assets/images/products/memoria_image.png">
+
+                    <p class="product-box-desc">
+                        Memória Ram Fury Beast, Ddr4 Rgb, Color Preto, 16GB, 1 Kingston Kf432c16bb1a/1.
+                    </p>
+
+                    <div class="product-box-price-obs">
+                        <p class="product-box-price">R$ 269,99</p>
+
+                        <P class="product-box-obs">A vista no PIX</P>
+                    </div>
+                    <a class="primary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-out-categories-area container-lg">
+            <h2>Nossas Categorias</h2>
+
+            <div class="section-area-all-categories-link">
+                <a href="<?=$base;?>/products">VER TODAS ></a>
+            </div>
+
+            <div class="categories-banners-area">
+                <div class="section-category-area-img">
+                    <img src="<?=$base;?>/assets/images/banners/banner_category1.jpeg">
+                </div>
+
+                <div class="section-category-area-img">
+                    <img src="<?=$base;?>/assets/images/banners/banner_category2.jpeg">
+                </div>
+
+                <div class="section-category-area-img">
+                    <img src="<?=$base;?>/assets/images/banners/banner_category3.jpeg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-marketing-area container-lg">
+            <div class="section-marketing-area-img">
+                <img src="<?=$base;?>/assets/images/banners/marketing_banner.jpeg">
+            </div>
+
+            <div class="section-marketing-area-texts">
+                <h2>
+                    Porque Comprar Com a Chamale<font color="#FF5900">ON</font>
+                </h2>
+
+                <div class="section-marketing-area-underline-tittle"></div>
+                
+
+                <p class="section-marketin-area-text">
+                    A ChamaleON tem uma grande variedade de produtos e preços que cabem no bolso. Buscamos trazer 
+                    os melhores produto para você, e tornar facil o processo de compra pela internet, focamos em um 
+                    atendimento PREMIUN onde você tera suporte todos os dias da semana a qualquer 
+                    horario, para tirar duvidas ou resolver alguma pendência.
+                </p>
+
+                <ul>
+                    <li>
+                        <i>+</i>
+                        <p>COMPRA 100% SEGURA</p>
+                    </li>
+
+                    <li>
+                        <i>+</i>
+                        <p>GARANTIA DE 4 MESES PARA TODOS OS PRODUTOS</p>
+                    </li>
+
+                    <li>
+                        <i>+</i>
+                        <p>FRETE GRATÍS PARA TODO BRASIL</p>
+                    </li>
+
+                    <li>
+                        <i>+</i>
+                        <p>SUPORTE 24/7</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-highlights-products-area container-md">
+            <div class="section-highlights-products-area-item1">
+                <img src="<?=$base;?>/assets/images/products/pc_image.jpg">
+
+                <p class="highlight-product-box-desc">
+                    PC Gamer Completo Skill Gaming AMD A6 7480, CPU 3.8GHz, 8GB, Radeon R5 2GB, SSD 120GB, Linux + Kit Gamer Skill + Monitor HDMI LED 19.5".
+                </p>
+
+                <div class="highlight-product-box-buy">
+                    <div class="highlight-product-box-price">
+                        <P class="highlight-product-box-obs">R$ 1399,00</P>
+                        
+                        <p class="highlight-product-box-price">R$ 1199,00</p>
+                    </div>
+
+                    <a class="secondary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                </div>
+            </div>
+
+            <div class="section-highlights-products-area-right">
+                <div class="section-highlights-products-area-item2">
+                    <img src="<?=$base;?>/assets/images/products/cooler_image.jpg">
+
+                    <p class="highlight-product-box-desc2">
+                        Cooler FAN Rise Mode Wind W1, 120mm, LED Branco - RM-WN-01-BW.
+                    </p>
+
+                    <div class="highlight-product-box-buy2">
+                        <div class="highlight-product-box-price2">
+                            <P class="highlight-product-box-obs2">R$ 1399,00</P>
+                            
+                            <p class="highlight-product-box-price2">R$ 1199,00</p>
+                        </div>
+
+                        <a class="tertiary-button" href="<?=$base;?>/product/id">COMPRAR</a>
+                    </div>
+                </div>
+
+                <div class="section-highlights-products-area-item3">
+                    <img src="<?=$base;?>/assets/images/products/cooler_image.jpg">
+
+                    <p class="highlight-product-box-desc3">
+                        Cooler FAN Rise Mode Wind W1, 120mm, LED Branco - RM-WN-01-BW.
+                    </p>
+
+                    <div class="highlight-product-box-buy3">
+                        <div class="highlight-product-box-price3">
+                            <P class="highlight-product-box-obs3">R$ 1399,00</P>
+                            
+                            <p class="highlight-product-box-price3">R$ 1199,00</p>
+                        </div>
+
+                        <a class="tertiary-button" href="<?=$base;?>/product/id">COMPRAR</a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
